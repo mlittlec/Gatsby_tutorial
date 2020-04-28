@@ -1,9 +1,10 @@
 import React from 'react'
+import Layout from "../components/Layout"
 
 export default function error() {
     return (
-        <div>
+        <Layout>
             If you see this it means I fucked up...
-        </div>
+        </Layout>
     )
 }
