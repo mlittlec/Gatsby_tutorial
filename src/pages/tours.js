@@ -2,6 +2,6 @@ import React, { Component } from "react"
 import Layout from "../components/Layout"
 export default class tours extends Component {
   render() {
-    return <Layout>Hello from the Tours page!!!!!</Layout>
+    return <Layout>hello from tours page!!!!!</Layout>
   }
 }
