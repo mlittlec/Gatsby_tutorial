@@ -1,8 +1,9 @@
 import React from "react"
+
 const Footer = () => {
   return (
     <div>
-      <h1>I'm footer</h1>
+      <h1>I'm a Footer</h1>
     </div>
   )
 }
