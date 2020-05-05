@@ -5,7 +5,8 @@ export default class tours extends Component {
   render() {
     return <Layout>Hello from the Tours page
       <div>
-        <Button> Hello from Styled </Button>
+        <Button big>First Button</Button>
+        <Button color="yellow">Second Button</Button>
       </div>
       
     </Layout>
