@@ -2,11 +2,11 @@ module.exports = {
   siteMetadata: {
     title: "BackRoads",
     description:
-      "Explore an awesome worldwide tour company & discover what makes us unique",
-    author: "@johndoe",
+      "Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure",
+    author: "@mlittlec",
     data: {
-      name: "name example",
-      age: 24,
+      name: "Martin",
+      age: 59,
     },
   },
   plugins: [
@@ -21,5 +21,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-transition-link`,
   ],
 }
