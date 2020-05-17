@@ -3,7 +3,6 @@ import Layout from "../components/Layout"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import Contact from "../components/Contact/Contact"
-
 export default function contact({ data }) {
   return (
     <Layout>

@@ -16,10 +16,6 @@ export default [
     text: "blogs",
   },
   {
-    path: "/News",
-    text: "news",
-  },
-  {
     path: "/contact",
     text: "contact",
   },

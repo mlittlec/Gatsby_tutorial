@@ -8,7 +8,7 @@ export default class tours extends Component {
     return (
       <Layout>
         <StyledHero img={this.props.data.defaultBcg.childImageSharp.fluid} />
-        <Tours/>
+        <Tours />
       </Layout>
     )
   }

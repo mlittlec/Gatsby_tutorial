@@ -1,6 +1,6 @@
 import React from 'react'
 
-const news-template = () => {
+const news = () => {
     return (
         <div>
             This is the News template
@@ -8,4 +8,4 @@ const news-template = () => {
     )
 }
 
-export default news-template
+export default news
