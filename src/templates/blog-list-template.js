@@ -7,7 +7,7 @@ import BlogCard from "../components/Blog/BlogCard"
 import Title from "../components/Title"
 
 const Blog = () => {
-  return <div>this is blogs template</div>
+  return <div>This is the Blogs template</div>
 }
 
 export default Blog
