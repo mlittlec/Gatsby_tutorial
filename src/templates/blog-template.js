@@ -17,9 +17,9 @@ const Blog = ({ data }) => {
       "embedded-asset-block": node => {
         return (
           <div className="rich">
-            <h3>this is awesome image</h3>
+            <h3>This is an awesome image</h3>
             <img width="400" src={node.data.target.fields.file["en-US"].url} />
-            <p>images provided by john doe</p>
+            <p>Images provided by John Doe</p>
           </div>
         )
       },
@@ -33,7 +33,7 @@ const Blog = ({ data }) => {
             <br />
             <br />
             <br />
-            <h1>this is other post : {title["en-US"]}</h1>
+            <h1>This is another post : {title["en-US"]}</h1>
             <img
               width="400"
               src={image["en-US"].fields.file["en-US"].url}
@@ -54,12 +54,12 @@ const Blog = ({ data }) => {
       <section className={styles.blog}>
         <div className={styles.center}>
           <h1>{title}</h1>
-          <h4>published at : {published}</h4>
+          <h4>Published at : {published}</h4>
           <article className={styles.post}>
             {documentToReactComponents(json, options)}
           </article>
           <AniLink fade to="/blog" className="btn-primary">
-            all posts
+            All posts
           </AniLink>
         </div>
       </section>

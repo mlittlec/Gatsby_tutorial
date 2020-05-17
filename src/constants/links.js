@@ -12,6 +12,14 @@ export default [
     text: "blog",
   },
   {
+    path: "/blogs",
+    text: "blogs",
+  },
+  {
+    path: "/News",
+    text: "news",
+  },
+  {
     path: "/contact",
     text: "contact",
   },
