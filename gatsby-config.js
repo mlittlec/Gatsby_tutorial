@@ -6,13 +6,13 @@ module.exports = {
     title: "BackRoads",
     description:
       "Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure",
-    author: "@mlittlec",
-    data: {
-      name: "Martin",
-      age: 59,
-    },
+    author: "@johndoe",
+    twitterUsername: "@john_smilga",
+    image: "defaultBcg.jpeg",
+    siteUrl: "https://gatsby-backroad-project.netlify.com",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -28,22 +28,11 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
-    {
-      resolve: "gatsby-plugin-robots-txt",
-      options: {
-        host: "https://www.example.com",
-        sitemap: "https://www.example.com/sitemap.xml",
-        policy: [{ userAgent: "*", allow: "/" }],
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-playground`,
-    `gatsby-plugin-sitemap`,
-    "gatsby-plugin-robots-txt",
-    `gatsby-plugin-react-helmet`,
   ],
 }
