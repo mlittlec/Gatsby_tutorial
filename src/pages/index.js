@@ -10,7 +10,7 @@ import FeaturedTours from "../components/Home/FeaturedTours"
 import SEO from "../components/SEO"
 export default ({ data }) => (
   <Layout>
-    <SEO title="home" description="this is description" />
+    <SEO title="Home" />
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
         title="continue exploring"
